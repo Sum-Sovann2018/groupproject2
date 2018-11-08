@@ -1,0 +1,44 @@
+/*Using 8:9 (1.125) ratio modular scale */
+html {
+  margin: auto;
+  font-family: Georgia, serif;
+  font-size: 1.125em;
+  line-height: 1.266em;
+}
+
+/* Jae-ger code */
+
+#header{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+#header ul li {
+  font-size: 2.281em; 
+  line-height: 2.281em;
+  list-style-type: none;
+  color: #3561F4; /*bright blue*/  
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background: url(../media/earth.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  margin-top: 30px;
+}
+
+
+#footer ul li {
+  font-size: 1.266em; 
+  line-height: 1.424em;
+  list-style-type: none;
+  color: #3561F4; /*bright blue*/  
+  font: 1em Georgia, "Times New Roman", Times, serif;
+}
+
