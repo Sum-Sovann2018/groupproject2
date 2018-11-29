@@ -152,9 +152,11 @@ img{
   min-width:80px;  
 }
 
-first.img{
+.cevent{
   width:75%;
   min-width:280px; 
+  margin-left:auto;
+  margin-right:auto;
 }
 
 
