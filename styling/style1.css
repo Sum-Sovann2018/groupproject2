@@ -167,6 +167,8 @@ fieldset{
   width: 25%;
   padding-bottom: 1.125em;
   margin: auto;
+  background-color: #f1aa94;
+  opacity: .75;
 }
 
 input{
