@@ -42,3 +42,40 @@ body {
   font: 1em Georgia, "Times New Roman", Times, serif;
 }
 
+/* Home */
+
+
+/* About */
+
+
+/* Events */
+
+
+/* Contacts */
+
+fieldset{
+  border: 3px solid gray;
+  width: 25%;
+  padding-bottom: 1.125em;
+  margin: auto;
+}
+
+input{
+  border: 2px solid #ccc;
+  width: auto;
+  padding: 6px 8px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: 6px 0;
+}
+
+.info{
+  padding: 4px 4px;
+  margin-top: 2px;
+  margin-bottom: 6px;
+}
+
+.la{ 
+  font-size: 28px; 
+  font-weight: bold;
+}
