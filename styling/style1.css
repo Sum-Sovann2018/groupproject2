@@ -101,13 +101,46 @@ body {
 
 
 /* About */
+
+fieldset.explanation{
+  /*border: 2px solid #ccc;
+  width: 55%;
+  padding: 6px 8px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #e6695c;
+  margin: auto;
+  opacity: 75%*/
+  
+  
+  border: .1px ;
+  width: 55%;
+  padding: 6px 8px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: transparent;
+  margin: auto;
+  opacity: 75%
+  
+}
+
 ul.explanation{
-  list-style-type:disc;
+  
+  /*padding: 10px 20px;  
+  border-style: ridge;
+  border-width: 40%;
+  background-color: #e6695c;
+  margin: auto;
+  opacity: .75;*/
+  
+    list-style-type:disc;
   font-size: 1em; 
   line-height: 3em; 
   color: brown; 
   text-align: left;
+  
 }
+
 
 .introduc{
   font-family: 'Comic Sans MS', cursive, sans-serif;
