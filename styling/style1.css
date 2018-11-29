@@ -13,6 +13,13 @@ ul li {
   color: #5f1047;   
 }
 
+h1 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
 
 /* Jae-ger code */
 
@@ -22,7 +29,7 @@ ul li {
   text-align: center;
   margin: auto;
   font-size: .75em;
-  line-height: 1.266em;
+  line-height: 2.266em;
 }
 
 /* 
@@ -43,12 +50,7 @@ Additional Edits on Navigation
   overflow: hidden;
 }
 
-/* 
-Additional Edits on Navigation
-*/
-
 #navigation ul{
-
   opacity: .9;
   text-align: center;
   overflow: hidden;
@@ -71,8 +73,8 @@ Additional Edits on Navigation
 }
 
 li a.active {
-    background-color: #CD8E3E;
-    color: white;
+  background-color: #CD8E3E;
+  color: white;
 }
 
 body {
@@ -99,70 +101,92 @@ body {
 
 
 /* About */
-
-.explanation{
+ul.explanation{
+  list-style-type:disc;
   font-size: 1em; 
-  line-height: 2em; 
-  list-style-type: square;
-  color: #5f1047;
-  white-space: nowrap;
-  overflow: hidden; 
-  text-overflow: ellipsis
+  line-height: 3em; 
+  color: brown; 
+  text-align: left;
+}
+
+.introduc{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 1em;
+  line-height: 2.266em;
+  width: 80%;  
+}
+
+figure.imgs{
+  text-align: center;	
+  width: 100%;
+  margin: auto; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+  margin-bottom: 25px;
+  }
+
+figcaption.pol{
+  text-align: center;
+  padding: 10px 20px;  
+  border-style: ridge;
+  border-width: 2px;
+  background-color: brown;
+  margin-bottom: 1.333em;
 }
 
 /* Events */
-h1 {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  color: #58aec2;
-  text-align: center;
-  width: 50%;
-  margin: auto;
-}
-
 table.center {
-  width: 100%;
+  width: 96%;
   border-collapse: collapse;
   margin-left:auto;
   margin-right:auto;
+  border-style: ridge;
+  border-color: brown;  
 }
 
+caption{
+  font-family: 'Comic Sans MS', cursive, sans-serif;	
+  text-align: center;
+  padding: 10px 20px;  
+  border-style: ridge;
+  border-width: 4px;
+  background-color: brown;
+  margin-bottom: 1.333em;
+  margin-top: 1.333em;
+  font-size: 1.333em;  
+  line-height: 1em;
+  color: white;  
+}
+
+/* caption and titles*/
 th {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
   color: #7d1047;
   text-align: center;
-  height: 50px;
-  margin:auto;
+  margin: auto;
   border: 2px solid white;
-}
-
-.col {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  font-weight: bold;
-  color: #84F2D7;
-  text-align: center;
-  width: 20%;
-  height: 50px;
-  border: 2px solid white;
+  font-size: 1em;  
+  line-height: 1.2em;
 }
 
 td {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   color: #7d1047;
-  text-align: center;
   height: 50px;
   margin:auto;
   border: 2px solid white;
   /* background-color: black; */
-  opacity: .8;
+  opacity: .9;
 }
 
 img{
-  width:50%;
+  width:98%;
   min-width:80px;  
 }
 
 .cevent{
-  width:75%;
+  width:90%;
   min-width:280px; 
   margin-left:auto;
   margin-right:auto;
@@ -173,10 +197,10 @@ img{
 
 fieldset{
   border: 3px solid gray;
-  width: 25%;
+  width: 40%;
   padding-bottom: 1.125em;
   margin: auto;
-  background-color: #f1aa94;
+  background-color: brown;
   opacity: .75;
 }
 
