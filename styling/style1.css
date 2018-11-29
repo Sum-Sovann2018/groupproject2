@@ -106,7 +106,8 @@ body {
   list-style-type: square;
   color: #5f1047;
   white-space: nowrap;
-  
+  overflow: hidden; 
+  text-overflow: ellipsis
 }
 
 /* Events */
