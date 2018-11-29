@@ -2,9 +2,17 @@
 html {
   margin: auto;
   font-family: Georgia, serif;
-  font-size: 1.125em;
+  font-size: 0.875em;
   line-height: 1.266em;
 }
+
+ul li {
+  font-size: 0.844em; 
+  list-style-type: square;
+  line-height: 1.25em;
+  color: blue; /*bright blue*/  
+}
+
 
 /* Jae-ger code */
 
@@ -13,19 +21,60 @@ html {
   color: white;
   text-align: center;
   margin: auto;
+  font-size: .75em;
+  line-height: 1.266em;
 }
 
-#header ul li {
-  font-size: 2.281em; 
-  line-height: 2.281em;
+/* 
+Additional Edits on Navigation
+*/
+
+#navigation ul,
+#navigation li {
+  display: block;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: 1.125em;
+  padding-left: 0.2em;
+  padding-right: 0.8em;
+  background-color: #D6CC9E; /*earth brown*/
   list-style-type: none;
-  color: #3561F4; /*bright blue*/  
+  width: 100%;
+  overflow: hidden;
 }
+
+/* 
+Additional Edits on Navigation
+*/
+
+#navigation ul{
+
+  opacity: .9;
+  text-align: center;
+  overflow: hidden;
+}
+
+#navigation li {
+  list-style-type: none;
+  display: inline;
+}
+
+#navigation li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+#navigation li a:hover {
+  background-color: #C6C1A8; /*Earth grey color*/
+}
+
 
 body {
   font-family: 'Lato', sans-serif;
   text-align: center;
-  background: url(../media/earth.jpg);
+  background: url(../media/bk2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
