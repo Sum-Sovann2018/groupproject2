@@ -2,14 +2,14 @@
 html {
   margin: auto;
   font-family: Georgia, serif;
-  font-size: 0.875em;
+  font-size: 1em;
   line-height: 1.266em;
 }
 
 ul li {
-  font-size: 0.844em; 
+  font-size: 1em; 
+  line-height: 2em; 
   list-style-type: square;
-  line-height: 1.25em;
   color: blue; /*bright blue*/  
 }
 
@@ -70,6 +70,10 @@ Additional Edits on Navigation
   background-color: #C6C1A8; /*Earth grey color*/
 }
 
+li a.active {
+    background-color: #CD8E3E;
+    color: white;
+}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -98,6 +102,50 @@ body {
 
 
 /* Events */
+h1 {
+		font-family: 'Comic Sans MS', cursive, sans-serif;
+		color: #E859D5;
+		text-align: center;
+		width: 50%;
+		margin: auto;
+}
+
+table.center {
+    width: 100%;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+th {
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #59E8CC;
+	text-align: center;
+	height: 50px;
+	margin:auto;
+	border: 2px solid white;
+}
+
+.col {
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+	font-weight: bold;
+    color: #84F2D7;
+	text-align: center;
+	width: 20%;
+	height: 50px;
+	border: 2px solid white;
+}
+
+td {
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #E859D5;
+	text-align: center;
+	height: 50px;
+	margin:auto;
+	border: 2px solid white;
+	background-color: black;
+	opacity: .8;
+}
 
 
 /* Contacts */
