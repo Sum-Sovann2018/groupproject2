@@ -152,6 +152,10 @@ img{
   min-width:80px;  
 }
 
+.first{
+  width:75%;
+  min-width:280px; 
+}
 
 
 /* Contacts */
