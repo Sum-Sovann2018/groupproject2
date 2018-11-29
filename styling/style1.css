@@ -120,8 +120,7 @@ fieldset.explanation{
   box-sizing: border-box;
   background-color: transparent;
   margin: auto;
-  opacity: 75%
-  
+  opacity: 1;
 }
 
 ul.explanation{
