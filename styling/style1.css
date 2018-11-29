@@ -103,24 +103,24 @@ body {
 /* About */
 
 fieldset.explanation{
-  /*border: 2px solid #ccc;
+  border: 2px solid #ccc;
   width: 55%;
   padding: 6px 8px;
   border-radius: 6px;
   box-sizing: border-box;
-  background-color: #e6695c;
+  background-color: #cf6b59;
   margin: auto;
-  opacity: 75%*/
+  opacity: 1;
   
   
-  border: .1px ;
+  /*border: .1px ;
   width: 55%;
   padding: 6px 8px;
   border-radius: 6px;
   box-sizing: border-box;
   background-color: transparent;
   margin: auto;
-  opacity: 1;
+  opacity: 1;*/
 }
 
 ul.explanation{
@@ -132,7 +132,7 @@ ul.explanation{
   margin: auto;
   opacity: .75;*/
   
-    list-style-type:disc;
+  list-style-type:disc;
   font-size: 1em; 
   line-height: 3em; 
   color: brown; 
