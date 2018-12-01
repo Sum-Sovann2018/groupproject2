@@ -15,10 +15,20 @@ ul li {
 
 h1 {
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  color: white;
+  color: #382264;
   text-align: center;
   width: 80%;
   margin: auto;
+}
+
+h2{
+  color: #3822604;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  margin: auto;
+  font-size: 1.4em;
+  line-height: 2.266em;
+  width: 80%;
 }
 
 /* Jae-ger code */
@@ -44,7 +54,7 @@ Additional Edits on Navigation
   font-size: 1.125em;
   padding-left: 0.2em;
   padding-right: 0.8em;
-  background-color: #D6CC9E; /*earth brown*/
+  background-color: #A795C6; /*light purple*/
   list-style-type: none;
   width: 100%;
   overflow: hidden;
@@ -69,23 +79,24 @@ Additional Edits on Navigation
 }
 
 #navigation li a:hover {
-  background-color: #C6C1A8; /*Earth grey color*/
+  background-color: #CECFD0; /*Earth grey color*/
 }
 
 li a.active {
-  background-color: #CD8E3E;
+  background-color: #76b1ed;
   color: white;
 }
 
 body {
   font-family: 'Lato', sans-serif;
   text-align: center;
-  background: url(../media/bk2.jpg);
+  background: url(../media/background3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top center;
   margin-top: 30px;
+  color: #1F405F;
 }
 
 
@@ -108,9 +119,10 @@ fieldset.explanation{
   padding: 6px 8px;
   border-radius: 6px;
   box-sizing: border-box;
-  background-color: #cf6b59;
+  background-color: #7679bc;
   margin: auto;
   opacity: 1;
+  min-width:220px; 
   
   
   /*border: .1px ;
@@ -141,7 +153,7 @@ ul.explanation{
 }
 
 
-.introduc{
+.pol{
   font-family: 'Comic Sans MS', cursive, sans-serif;
   color: white;
   text-align: center;
@@ -153,10 +165,11 @@ ul.explanation{
 
 figure.imgs{
   text-align: center;	
-  width: 100%;
+  width: 40%;
   margin: auto; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
   margin-bottom: 25px;
+  min-width:250px; 
   }
 
 figcaption.pol{
@@ -164,8 +177,10 @@ figcaption.pol{
   padding: 10px 20px;  
   border-style: ridge;
   border-width: 2px;
-  background-color: brown;
+  background-color: #382264;
   margin-bottom: 1.333em;
+  width: 90%;
+  min-width:190px; 
 }
 
 /* Events */
@@ -175,7 +190,7 @@ table.center {
   margin-left:auto;
   margin-right:auto;
   border-style: ridge;
-  border-color: brown;  
+  border-color: #382264;  
 }
 
 caption{
@@ -184,7 +199,7 @@ caption{
   padding: 10px 20px;  
   border-style: ridge;
   border-width: 4px;
-  background-color: brown;
+  background-color: #382264;
   margin-bottom: 1.333em;
   margin-top: 1.333em;
   font-size: 1.333em;  
@@ -232,7 +247,7 @@ fieldset{
   width: 40%;
   padding-bottom: 1.125em;
   margin: auto;
-  background-color: brown;
+  background-color: #A795C6;
   opacity: .75;
 }
 
