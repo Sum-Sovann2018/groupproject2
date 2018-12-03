@@ -45,7 +45,7 @@ h2{
 /* 
 Additional Edits on Navigation
 */
-
+/*
 #navigation ul,
 #navigation li {
   display: block;
@@ -54,11 +54,11 @@ Additional Edits on Navigation
   font-size: 1.125em;
   padding-left: 0.2em;
   padding-right: 0.8em;
-  background-color: #A795C6; /*light purple*/
+  background-color: #A795C6; 
   list-style-type: none;
   width: 100%;
   overflow: hidden;
-}
+} 
 
 #navigation ul{
   opacity: .9;
@@ -78,14 +78,53 @@ Additional Edits on Navigation
   text-decoration: none;
 }
 
-#navigation li a:hover {
-  background-color: #CECFD0; /*Earth grey color*/
-}
-
 li a.active {
   background-color: #76b1ed;
   color: white;
 }
+
+#navigation li a:hover {
+  background-color: #CECFD0; 
+} */
+
+#navigation ul {
+  display: block;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: 1.425em;
+  padding-left: 0.2em;
+  padding-right: 0.8em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A795C6;
+  text-align: center;
+  opacity: .9;
+}
+
+#navigation li {
+  list-style-type: none;
+  display: inline;
+}
+
+#navigation li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #76b1ed;
+}
+
+
+#navigation li a:hover {
+  background-color: #CECFD0;
+}
+
 
 body {
   font-family: 'Lato', sans-serif;
@@ -123,6 +162,8 @@ fieldset.explanation{
   margin: auto;
   opacity: 1;
   min-width:220px; 
+  margin-top: 24px;
+  margin-bottom: 12px;
   
   
   /*border: .1px ;
@@ -249,6 +290,8 @@ fieldset{
   margin: auto;
   background-color: #A795C6;
   opacity: .75;
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
 
 input{
