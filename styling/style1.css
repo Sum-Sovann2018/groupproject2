@@ -101,6 +101,8 @@ li a.active {
   background-color: #A795C6;
   text-align: center;
   opacity: .9;
+  margin-top: 12px;
+  margin-bottom: 2px;
 }
 
 #navigation li {
